@@ -3,9 +3,9 @@ If you're running this on your machine, you'll want to fork/clone the repo then 
 The command to start the server _with_ the JSON Data Server is `yarn dev` or `npm run dev` so:
 
 Order of commands:
-fork/clone
-`yarn` or `npm install`
-`yarn dev` or `npm run dev`
+1. fork/clone
+2. `yarn` or `npm install`
+3. `yarn dev` or `npm run dev`
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
