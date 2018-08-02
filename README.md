@@ -1,3 +1,12 @@
+# Render Props Playground - Lambda School Read below
+If you're running this on your machine, you'll want to fork/clone the repo then run `yarn` or `npm install`.
+The command to start the server _with_ the JSON Data Server is `yarn dev` or `npm run dev` so:
+
+Order of commands:
+fork/clone
+`yarn` or `npm install`
+`yarn dev` or `npm run dev`
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
