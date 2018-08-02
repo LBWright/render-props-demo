@@ -1,5 +1,7 @@
 import React from 'react';
 
+// this is our function UI rendering component
+
 const CharacterItem = ({ name, description }) => {
   return (
     <div>

@@ -10,13 +10,14 @@ class Characters extends Component {
     loading: true
   };
 
-  static propTypes = {
-    children: PropTypes.func.isRequired
-  };
+  // proptypes is important for this method
+  // DO NOT FORGET PROPTYPES
 
+  // we make our post request to the server
   addCharacter = character => {
     axios.post('http://localhost:3004/characters/', character).then(res => {
       this.setState(prevState => {
+        // any time we refer to previous state to set the current state, we always use the setState callback
         return {
           characters: prevState.characters.concat(character)
         };
@@ -24,6 +25,7 @@ class Characters extends Component {
     });
   };
 
+  // we make our fetch request to the server
   fetchCharacters = () => {
     axios.get('http://localhost:3004/characters/').then(res => {
       console.log(res.data);
@@ -31,16 +33,12 @@ class Characters extends Component {
     });
   };
 
+  // on mounting, we fetch our data
   componentDidMount() {
     this.fetchCharacters();
   }
   render() {
-    const characters = {
-      characters: this.state.characters,
-      addCharacter: this.addCharacter
-    };
-    if (this.state.loading) return <h2>Loading...</h2>;
-    return this.props.children(characters);
+    return <div>From characters</div>;
   }
 }
 
