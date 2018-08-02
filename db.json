@@ -1,0 +1,39 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Harry Potter",
+      "description": "The boy who lived"
+    },
+    {
+      "id": 2,
+      "name": "Hermoine Granger",
+      "description": "The know it all"
+    },
+    {
+      "id": 3,
+      "name": "Lord Voldemort",
+      "description": "The guy without a nose. He's also mean"
+    },
+    {
+      "id": 4,
+      "name": "Dobby the House Elf",
+      "description": "The one with the ears."
+    },
+    {
+      "title": "Logan Wright",
+      "description": "The Real Hero",
+      "id": 1533182236636
+    },
+    {
+      "title": "Logan Wright",
+      "description": "The Real Hero",
+      "id": 1533182237860
+    },
+    {
+      "name": "Ron Weasley",
+      "description": "The second placer",
+      "id": 1533182379381
+    }
+  ]
+}
